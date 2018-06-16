@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.enthusiast.elements" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Chemical elements</name>
+    <description>
+       Chemical elements app.
+	   WEB http://chemelem.enthusiast.io
+    </description>
+    <author email="enthsiast.studio@gmail.com" href="http://chemelem.enthusiast.io">
+        Enthusiast studio
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

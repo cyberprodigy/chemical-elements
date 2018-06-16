@@ -1,0 +1,25 @@
+<section >
+	
+	<div class="elemDetails" ng-model="elems">
+		<div class="details-wrapper clearfix">
+			<div class="left-side">
+				<span class="data">{{elems[elemIdx].Symbol}}</span>
+				<span class="label">Symbol</span>
+				<span class="data">{{elems[elemIdx].At}}</span>
+				<span class="label">Atomic number</span>
+				<span class="data">{{elems[elemIdx].Group}}</span>
+				<span class="label">Group</span>
+				<span class="data small-data">{{elems[elemIdx].Mass}}</span>
+				<span class="label">Mass</span>
+			</div>
+			<div class="right-side">
+				<h2 class="name">{{elems[elemIdx].Name}}</h2>
+				<span class="type">Type: {{elems[elemIdx].Type}}</span>
+				<p class="description">{{elems[elemIdx].Description}}</p>
+				<div class="element-image" style="background-image:url('img/elements/{{elems[elemIdx].Image}}')">
+				</div>
+			</div>
+			<a href="#/list" class="back-btn">Back</a>
+		</div>
+	</div>
+</section>
